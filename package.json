@@ -1,0 +1,20 @@
+{
+  "name": "cnn-twitter-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "moment": "^2.14.1",
+    "node-cache": "^3.2.1",
+    "promise": "^7.1.1",
+    "twitter": "^1.3.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}

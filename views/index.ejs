@@ -1,0 +1,18 @@
+<% var title = "@" + username + "'s Timeline" %>
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= title %></title>
+</head>
+<body>
+    <h1><%= title %></h1>
+    <div class="tweet-container">
+        <% tweets.forEach(function(tweet) { %>
+            <%- include('partials/tweet', tweet) %>
+        <% }) %>
+    </div>
+</body>
+</html>
+ 

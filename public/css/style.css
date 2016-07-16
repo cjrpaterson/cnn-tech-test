@@ -1,0 +1,46 @@
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1em;
+}
+
+h1 {
+	text-align: center;
+}
+
+.tweet-container {
+	display: flex;
+	flex-wrap: wrap;
+ 	justify-content: center;
+ 	margin: auto;
+ 	max-width: 1000px;
+	width: 100%;
+}
+
+.tweet {
+	margin: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+.tweet p {
+	margin: 0;
+}
+
+.tweet .datetime {
+	color: grey;
+	font-size: 0.8em;
+	font-style: italic;
+	margin-top: 2px;
+}
+
+@media (min-width: 750px) {
+	.tweet {
+		width: calc(50% - 40px);
+	}
+}
+
+@media (min-width: 1200px) {
+	.tweet {
+		width: calc(33% - 60px);
+	}
+}
